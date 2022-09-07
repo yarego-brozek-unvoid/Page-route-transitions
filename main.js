@@ -15,7 +15,7 @@ window.onload = () => {
 
       transition_el.classList.add("is-active");
 
-      setTimeout(() => {
+      setInterval(() => {
         window.location.href = target;
       }, 500);
     });
